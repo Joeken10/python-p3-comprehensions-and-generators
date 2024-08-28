@@ -8,4 +8,8 @@ print(return_evens([0, 1, 3, 5, 7, 8, 9]))  # Expected output: [0, 8]
 pass
 
 def make_exclamation(sentence_list):
-    pass
+    return [sentence + "!" for sentence in sentence_list]
+
+print(make_exclamation(["Hello", "I like computers","I require coffee","Live long and prosper",]))  
+
+pass
